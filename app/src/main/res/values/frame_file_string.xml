@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="frame_external_cache_dir">frame_external_cache_dir</string>
+    <string name="frame_cache_dir">frame_cache_dir</string>
+    <string name="frame_external_storage_directory">frame_external_storage_directory</string>
+    <string name="frame_external_files_dir">frame_external_files_dir</string>
+    <string name="frame_files_dir">frame_files_dir</string>
+</resources>

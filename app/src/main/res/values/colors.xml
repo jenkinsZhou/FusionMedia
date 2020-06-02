@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/blue5087FF</color>
+    <color name="colorPrimaryDark">#004D8E</color>
+    <color name="colorAccent">@color/blue55A9FF</color>
+    <color name="transparent">#00000000</color>
+    <color name="province_line_border">#C7C7C7</color>
+    <color name="material_red_50">#e1f5fe</color>
+    <color name="material_red_500">#e51c23</color>
+    <color name="material_red_700">#d01716</color>
+    <color name="colorQQBackgroundStart">#4e8cfc</color>
+    <color name="color_text_01">#ffc5c9ce</color>
+    <color name="color_text_03">#ffb1b7be</color>
+    <color name="color_text_02">#ff181c20</color>
+    <color name="colorQQBackgroundEnd">#33bafc</color>
+    <color name="colorQQBackgroundCenter">#34b0fc</color>
+    <color name="defaultTextColorPrimary">@color/blue5087FF</color>
+    <!--普通有灰色背景的用这个-->
+    <color name="colorBackground">#f8f8f8</color>
+    <color name="colorTextBlack">#333333</color>
+    <color name="colorTextBlackLight">#636363</color>
+    <color name="colorTextGray">#666666</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorWhitePressed">#DCDCDC</color>
+    <color name="colorRadiusDefaultRipple">#c8cccccc</color>
+    <!--TitleBarView背景色 微信背景-->
+    <color name="colorTitleBackground">@color/whiteFFFEFF</color>
+    <!--TitleBarView 文字颜色-->
+    <color name="colorTitleText">#393939</color>
+    <!--TitleBarView 下划线颜色-->
+    <color name="colorTitleDivider">@color/colorTabUnderline</color>
+    <!--主页tab背景色-->
+    <color name="colorTabBackground">#FCFCFC</color>
+    <!--主页上划线颜色-->
+    <color name="colorTabUnderline">#E6E6E6</color>
+    <!--主页tab文字默认颜色-->
+    <color name="colorTabTextUnSelect">#909090</color>
+    <!--主页tab文字选中颜色-->
+    <color name="colorTabTextSelect">@color/colorTitleText</color>
+
+    <!--多状态文本颜色控制-->
+    <color name="status_layout_click_view_text_color">#0084FF</color>
+    <color name="status_layout_tip_text_color">@color/colorTitleText</color>
+    <!-- 个人中心颜色相关-->
+    <color name="red_common">#FF3636</color>
+    <!--Glide加载图片默认占位图背景色-->
+    <color name="colorPlaceholder">#CCCCCC</color>
+
+    <!--LoadMoreView 文本颜色-->
+    <color name="colorLoadMoreText">@color/colorTitleText</color>
+    <!--LoadMoreView loading颜色-->
+    <color name="colorLoadMoreProgress">@color/colorTitleText</color>
+
+    <color name="color_f6">#f6f6f6</color>
+    <color name="whiteFFFEFF">#FFFEFF</color>
+    <color name="whiteFBF8FB">#FBF8FB</color>
+
+    <!--灰色区域-->
+    <color name="grayF4F5F7">#F4F5F7</color>
+    <color name="grayF4F4F4">#F4F4F4</color>
+    <color name="gray999999">#999999</color>
+    <color name="grayD3D3D3">#D3D3D3</color>
+    <color name="gray888888">#888888</color>
+    <color name="gray333333">#333333</color>
+    <color name="grayEAEAEA">#F4F5F7</color>
+    <color name="grayE8E5E9">#E8E5E9</color>
+    <color name="grayEEEEEE">#EEEEEE</color>
+    <color name="gray666666">#666666</color>
+    <color name="grayB6B6B6">#B6B6B6</color>
+    <color name="grayF5F5F5">#F5F5F5</color>
+    <color name="grayE8E8E8">#E8E8E8</color>
+    <color name="grayE0E0E0">#E0E0E0</color>
+    <color name="grayA2A2A2">#A2A2A2</color>
+    <color name="grayD2D2D2">#D2D2D2</color>
+    <color name="grayA0A0A0">#A0A0A0</color>
+    <color name="grayCCCCCC">#CCCCCC</color>
+    <color name="grayAAAAAA">#AAAAAA</color>
+    <color name="gray3A3A3A">#3A3A3A</color>
+    <color name="grayF2F2F2">#F2F2F2</color>
+    <color name="gray555555">#555555</color>
+    <color name="grayF0F0F0">#F0F0F0</color>
+    <color name="grayE5E5E5">#E5E5E5</color>
+    <color name="grayFDFDFD">#FDFDFD</color>
+    <color name="grayF9F9F9">#F9F9F9</color>
+    <color name="grayFBF8FB">#FBF8FB</color>
+    <color name="grayDBDBDB">#DBDBDB</color>
+    <color name="grayBFBFBF">#BFBFBF</color>
+    <color name="grayF0F0E9">#F0F0E9</color>
+    <color name="grayF7F4F8">#F7F4F8</color>
+    <color name="grayB3B3B3">#B3B3B3</color>
+
+
+    <!--黑色区域-->
+    <color name="black333333">#333333</color>
+    <color name="black525252">#525252</color>
+    <color name="black171717">#171717</color>
+    <color name="black181818">#181818</color>
+    <color name="blackff000000">#ff000000</color>
+    <color name="blackBB000000">#BB000000</color>
+    <color name="black000000">#000000</color>
+    <color name="black222222">#222222</color>
+    <color name="black212222">#212222</color>
+
+    <color name="black434443">#434443</color>
+
+    <!--红色区域-->
+    <color name="redD81E06">#D81E06</color>
+    <color name="redF35757">#F35757</color>
+    <color name="redFF4A5C">#FF4A5C</color>
+    <color name="redD10303">#D10303</color>
+    <color name="redE54E3F">#E54E3F</color>
+
+    <color name="redFF736C">#FF736C</color>
+    <color name="redE8403E">#E8403E</color>
+    <color name="redF56D43">#F56D43</color>
+    <!--橙色区域-->
+    <color name="orangeFE7000">#FE7000</color>
+    <color name="orangeFEF4EC">#FEF4EC</color>
+    <color name="orangeEEA849">#EEA849</color>
+    <color name="orangeF46B45">#F46B45</color>
+    <!--黄色区域-->
+    <color name="yellowFFB400">#FFB400</color>
+    <color name="yellowFBE945">#FBE945</color>
+    <color name="yellowF58220">#F58220</color>
+    <color name="yellowFCC946">#FCC946</color>
+    <color name="yellowFD9547">#FD9547</color>
+    <color name="yellowE1BD85">#E1BD85</color>
+    <color name="yellowB4976A">#B4976A</color>
+    <color name="yellowFF7B26">#FF7B26</color>
+
+    <!--绿色区域-->
+    <color name="green0DBD00">#0DBD00</color>
+    <color name="green42AF3D">#42AF3D</color>
+    <color name="green67C23A">#67C23A</color>
+    <color name="green69C33C">#69C33C</color>
+    <color name="green4EBBBF">#4EBBBF</color>
+    <color name="green78C2E4">#78C2E4</color>
+    <color name="green73C7DF">#73C7DF</color>
+    <color name="green63C4E1">#63C4E1</color>
+    <color name="green7DD1E0">#7DD1E0</color>
+    <!--蓝色区域-->
+
+    <color name="blue358EB9">#358EB9</color>
+    <color name="blue007AFF">#007AFF</color>
+    <color name="blue53C2FF">#53C2FF</color>
+    <color name="blue004D8E">#004D8E</color>
+    <color name="blue4E52FF">#4E52FF</color>
+    <color name="blue5593FF">#5593FF</color>
+    <color name="blue4287FF">#4287FF</color>
+    <color name="blue55A9FF">#55A9FF</color>
+    <color name="blue41baff">#41baff</color>
+    <color name="blueCommon">#4287FF</color>
+    <color name="blue5E8FEB">#5E8FEB</color>
+    <color name="blue79C6FA">#79C6FA</color>
+    <color name="blue5087FF">#5087FF</color>
+    <color name="blueEFF3FF">#EFF3FF</color>
+    <color name="blue4989E5">#4989E5</color>
+    <color name="blue8C91A9">#8C91A9</color>
+    <color name="blueE9F2FF">#E9F2FF</color>
+    <color name="blue7398FF">#7398FF</color>
+    <color name="blue9FBBF8">#9FBBF8</color>
+
+    <color name="blue50AAFE">#50AAFE</color>
+
+    <color name="blue53BFFF">#53BFFF</color>
+
+    <color name="yellowF39800">#F39800</color>
+    <color name="blueE7EFFF">#E7EFFF</color>
+    <color name="default_black_text_color">#333333</color>
+    <color name="default_gray_text_color">#A2A2A2</color>
+
+    <color name="default_color_activity_background">@color/grayF5F5F5</color>
+
+<!--车牌号键盘相关颜色-->
+    <color name="king_keyboard_key_text_color">#ff333333</color>
+
+    <color name="king_keyboard_key_special_text_color">#ff333333</color>
+
+    <color name="king_keyboard_key_done_text_color">#ffeeeeee</color>
+
+    <color name="king_keyboard_key_none_text_color">#7f999999</color>
+
+    <color name="king_keyboard_key_icon_color">#ff333333</color>
+
+    <color name="king_keyboard_key_bg_normal">#ffffffff</color>
+    <color name="king_keyboard_key_bg_pressed">#ffbbbbbb</color>
+
+    <color name="king_keyboard_special_key_bg_normal">#ffa8afbf</color>
+    <color name="king_keyboard_special_key_bg_pressed">#ff989faf</color>
+
+    <color name="king_keyboard_done_key_bg_normal">#ff0477ff</color>
+    <color name="king_keyboard_done_key_bg_pressed">#ff0467ef</color>
+
+    <color name="king_keyboard_none_key_bg_normal">#ffefefef</color>
+    <color name="king_keyboard_none_key_bg_pressed">#ffefefef</color>
+
+
+    <color name="preview_mock">#9a000000</color>
+    <color name="color_000000">#000000</color>
+    <color name="color_afff">#afff</color>
+
+    <color name="alertdialog_line">#c6c6c6</color>
+    <color name="actionsheet_blue">#037BFF</color>
+    <color name="actionsheet_red">#FD4A2E</color>
+    <color name="actionsheet_gray">#8F8F8F</color>
+
+    <color name="video_detail_subtitle_bg">#e3e6ea</color>
+    <color name="video_detail_divide_line">#cbd0d8</color>
+    <color name="bg_color_input_divide">#cbd0d8</color>
+    <color name="bg_media_player_controller">#7f000000</color>
+
+<!--ali_player_lib-->
+    <color name="alivc_player_theme_blue">#379DF2</color>
+    <color name="alivc_player_theme_green">#57AB44</color>
+    <color name="alivc_player_theme_orange">#EE7C33</color>
+    <color name="alivc_player_theme_red">#E94033</color>
+
+    <color name="alivc_player_font_info_duration">#9f9e9e</color>
+
+    <color name="alivc_player_bg_action_list_dialog">#1e2321</color>
+    <color name="alivc_player_bg_barrage_switch">#80D8D8D8</color>
+    <color name="alivc_player_list_item_press">#2d3342</color>
+
+    <!--其他一些常用颜色，除字体、背景色、线-->
+    <color name="alivc_common_white">#ffffffff</color>
+    <color name="alivc_common_gray_999">#999</color>
+    <color name="alivc_common_cyan_light">#00C1DE</color>
+
+    <!--公用字体颜色-->
+    <color name="alivc_common_font_black">#000000</color>
+    <color name="alivc_common_font_black_alpha_30">#4d000000</color>
+    <color name="alivc_common_font_black_alpha_70">#B3000000</color>
+
+    <color name="alivc_common_font_white">#ffffffff</color>
+    <color name="alivc_common_font_white_light">#e7e7e7</color>
+    <color name="alivc_common_font_white_alpha_50">#80FFFFFF</color>
+    <color name="alivc_common_font_gray_light">#C3C5C6</color>
+    <color name="alivc_common_font_gray_darker">#aaa</color>
+    <color name="alivc_common_font_gray_75">#757575</color>
+    <color name="alivc_common_font_gray_333">#333</color>
+    <color name="alivc_common_font_red">#FC4347</color>
+    <color name="alivc_common_font_cyan_light">#00C1DE</color>
+
+    <!--主题色，代表应用整体风格的颜色-->
+    <color name="alivc_common_theme_primary">#232A42</color>
+    <color name="alivc_common_theme_primary_alpha_50">#7f232A42</color>
+    <color name="alivc_common_theme_primary_dark">#1B2133</color>
+    <color name="alivc_common_theme_primary_darker">#1e222d</color>
+    <color name="alivc_common_theme_primary_light">#373d41</color>
+    <color name="alivc_common_theme_primary_light_alpha_90">#E6373d41</color>
+
+    <!--公用背景色，包含前景色、填充色-->
+    <color name="alivc_common_bg_transparent">#00000000</color>
+    <color name="alivc_common_bg_white">#ffffffff</color>
+    <color name="alivc_common_bg_white_alpha_10">#1affffff</color>
+    <color name="alivc_common_bg_white_alpha_15">#26ffffff</color>
+    <color name="alivc_common_bg_white_alpha_20">#33ffffff</color>
+    <color name="alivc_common_bg_white_alpha_30">#4dffffff</color>
+    <color name="alivc_common_bg_white_alpha_40">#66ffffff</color>
+    <color name="alivc_common_bg_white_alpha_50">#7FFFFFFF</color>
+    <color name="alivc_common_bg_white_alpha_60">#99FFFFFF</color>
+    <color name="alivc_common_bg_white_bright">#fff1f1f1</color>
+    <color name="alivc_common_bg_gray_darker">#aaa</color>
+    <color name="alivc_common_bg_gray_light">#C3C5C6</color>
+    <color name="alivc_common_bg_gray_bright">#D8D8D8</color>
+
+    <color name="alivc_common_bg_black">#ff000000</color>
+    <color name="alivc_common_bg_black_alpha_30">#4d000000</color>
+    <color name="alivc_common_bg_black_alpha_40">#66000000</color>
+    <color name="alivc_common_bg_black_alpha_50">#7f000000</color>
+    <color name="alivc_common_bg_black_alpha_60">#99000000</color>
+    <color name="alivc_common_bg_black_alpha_70">#B3000000</color>
+    <color name="alivc_common_bg_black_alpha_80">#CC000000</color>
+    <color name="alivc_common_bg_black_alpha_90">#E3000000</color>
+    <color name="alivc_common_bg_orange">#FC7729</color>
+    <color name="alivc_common_bg_cyan">#119797</color>
+    <color name="alivc_common_bg_cyan_light">#00C1DE</color>
+    <color name="alivc_common_bg_red">#FC4347</color>
+    <color name="alivc_common_bg_pink">#EF4B81</color>
+
+    <!--公用线的颜色，包含边界线的颜色-->
+    <color name="alivc_common_line_gray_bright">#D7D8D9</color>
+    <color name="alivc_common_line_gray_light">#C3C5C6</color>
+    <color name="alivc_common_line_gray_darker">#aaa</color>
+    <color name="alivc_common_line_cyan_light">#00C1DE</color>
+    <color name="alivc_common_line_white_alpha_30">#4DFFFFFF</color>
+    <color name="alivc_common_line_red">#FFff0000</color>
+
+</resources>
