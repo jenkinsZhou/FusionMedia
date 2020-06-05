@@ -1,10 +1,10 @@
 package com.tourcoo.core.log;
 
 
-import com.tourcoo.core.config.Log2FileConfig;
-import com.tourcoo.core.config.Log2FileConfigImpl;
-import com.tourcoo.core.config.LogConfig;
-import com.tourcoo.core.config.LogConfigImpl;
+import com.tourcoo.core.log.config.Log2FileConfig;
+import com.tourcoo.core.log.config.Log2FileConfigImpl;
+import com.tourcoo.core.log.config.LogConfig;
+import com.tourcoo.core.log.config.LogConfigImpl;
 
 /**
  * Created by pengwei08 on 2015/7/16.

@@ -1,24 +1,31 @@
 package com.tourcoo.fusionmedia;
 
-import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.view.View;
 
-import com.tourcoo.core.log.TourCooLogUtil;
+import com.tourcoo.core.module.activity.BaseMainActivity;
+import com.tourcoo.core.module.activity.BaseTitleActivity;
+import com.tourcoo.core.utils.FrameUtil;
 import com.tourcoo.core.utils.ToastUtil;
+import com.tourcoo.core.widget.view.title.TitleBarView;
 
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends BaseTitleActivity {
 private static final String TAG = "MainActivity";
+
+
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+    public int getContentLayout() {
+        return R.layout.activity_main;
+    }
+
+    @Override
+    public void initView(Bundle savedInstanceState) {
         findViewById(R.id.btnTestSuccess).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                ToastUtil.showSuccess("操作成功");
+                ToastUtil.showSuccess(R.string.app_name);
             }
         });
         findViewById(R.id.btnTestFailed).setOnClickListener(new View.OnClickListener() {
@@ -30,8 +37,14 @@ private static final String TAG = "MainActivity";
         findViewById(R.id.btnTestNormal).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                ToastUtil.showNormal("普通吐司");
+//                ToastUtil.showNormal("普通吐司");
+                FrameUtil.startActivity(MainActivity.this, BaseMainActivity.class);
             }
         });
+    }
+
+    @Override
+    public void setTitleBar(TitleBarView titleBar) {
+
     }
 }

@@ -4,8 +4,8 @@ import android.text.TextUtils;
 import android.util.Log;
 
 
-import com.tourcoo.core.config.Log2FileConfigImpl;
-import com.tourcoo.core.config.LogConfigImpl;
+import com.tourcoo.core.log.config.Log2FileConfigImpl;
+import com.tourcoo.core.log.config.LogConfigImpl;
 import com.tourcoo.core.log.file.LogFileParam;
 import com.tourcoo.core.log.parser.LocalParserManager;
 import com.tourcoo.core.log.utils.ObjectUtil;

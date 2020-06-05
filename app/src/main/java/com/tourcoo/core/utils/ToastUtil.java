@@ -322,6 +322,9 @@ public final class ToastUtil {
     public static void showSuccess(CharSequence content) {
         showCustomLayout(R.layout.toast_view_layout_success,content);
     }
+    public static void showSuccess(int stringResource) {
+        showSuccess(mApp.getText(stringResource));
+    }
     /**
      * 失败吐司
      * @param content
@@ -337,6 +340,10 @@ public final class ToastUtil {
     public static void showNormal(CharSequence content) {
         showCustomLayout(R.layout.toast_view_layout_normal,content);
     }
+    public static void showNormal(int stringResource) {
+        showNormal(mApp.getText(stringResource));
+    }
+
     private static void showCustomLayout(int layout ,CharSequence content){
         if (!isMainThread()) {
             return;

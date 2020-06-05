@@ -29,6 +29,7 @@ import androidx.core.graphics.drawable.DrawableCompat;
 
 
 import com.tourcoo.core.FrameConstant;
+import com.tourcoo.core.log.TourCooLogUtil;
 
 import java.lang.reflect.Method;
 import java.util.List;
@@ -45,7 +46,7 @@ import java.util.Random;
  * 6、2019-4-22 17:44:14 修改{@link #getTintDrawable(Drawable, int)}以支持5.0以下版本并增加{@link #getTintDrawable(Drawable, ColorStateList)}
  */
 public class FrameUtil {
-
+    private static final String TAG = "FrameUtil";
     private static int ACTIVITY_SINGLE_FLAG = Intent.FLAG_ACTIVITY_SINGLE_TOP;
 
     /**
@@ -128,10 +129,7 @@ public class FrameUtil {
         if (activity == null) {
             return null;
         }
-        if (activity.findViewById(android.R.id.content) == null) {
-            return null;
-        }
-        return ((ViewGroup) activity.findViewById(android.R.id.content)).getChildAt(0);
+        return ((ViewGroup)activity.findViewById(android.R.id.content)).getChildAt(0);
     }
 
     /**
